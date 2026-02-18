@@ -33,6 +33,21 @@ h1 {
     color: #1d1d1d;
 }
 
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+h3 {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 1rem;
+    color:#767676;
+}
+
 h4 {
     font-family: "Space Mono", monospace;
     font-weight: 400;
@@ -40,6 +55,22 @@ h4 {
     font-size: 1rem;
     text-transform: uppercase;
     color:#1d1d1d;
+}
+
+h5 {
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+h6 {
+    font-family: Helvetica, sans-serif; 
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1rem;
+    padding-left: 1rem;
+    color:#767676;
 }
 
 .website-nav a {
@@ -58,3 +89,31 @@ h4 {
 .website-nav a:active {
     background-size: 100% 0.1em;
 }
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    color: white;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.product-listing{
+    border-bottom-style: solid;
+    border-bottom-width: 0.05rem;
+    border-bottom-color: #767676;
+}
+
+/*
+.footer {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 4rem;
+    align-content: center;
+    color: white;
+    background-color: #1d1d1d;
+}
+*/
