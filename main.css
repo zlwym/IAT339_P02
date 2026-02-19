@@ -57,6 +57,14 @@ h4 {
     color:#1d1d1d;
 }
 
+h5 {
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.8rem;
+    color: white;
+}
+
 h6 {
     font-family: Helvetica, sans-serif; 
     font-weight: normal;
@@ -140,6 +148,25 @@ a:hover, a:focus, a:active {
 
 .text-container {
     max-width: 50vw;
+    padding-left: 3rem;
+}
+
+.cart-button{
+  display: inline-block;
+  background-color: #EF7707;
+  padding: 1rem;
+  color: black;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  transition: background-size 0.01s;
+
+}
+
+.cart-button:active,
+.cart-button:hover, 
+.cart-button:focus{ 
+    background-color: white;
+    transition: 0.1s ease-in-out;
 }
 
 /*
