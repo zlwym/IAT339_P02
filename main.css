@@ -166,7 +166,7 @@ a:hover, a:focus, a:active {
 }
 
 .image-container img {
-    height: 100vh;
+    height: 100VH;
     width: 100vw;
 }
 
@@ -223,6 +223,25 @@ a:hover, a:focus, a:active {
     justify-content: space-between;
     align-items: center;
 }
+
+@media (max-width: 50em) {
+    .product-info {
+        flex-direction: column;
+    }
+
+    .image-container {
+        order: -1;
+        width: 100vw;
+        border-left: none;
+        border-bottom: 1px solid white;
+    }
+
+    .text-container {
+        padding-top: 3rem;
+        max-width: 100%;
+    }
+}
+
 
 /* end of product page stuff */
 
