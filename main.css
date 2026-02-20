@@ -221,7 +221,7 @@ a:hover, a:focus, a:active {
     align-items: center;
 }
 
-@media (max-width: 50em) {
+@media (max-width: 55em) {
     .product-info {
         flex-direction: column;
     }
