@@ -132,9 +132,8 @@ a:hover, a:focus, a:active {
     flex-wrap: wrap;
     gap: 4rem;
     color: white;
-    justify-content: left;
+    justify-content: center;
     padding-top: 2rem;
-    padding-left: 10rem;
 }
 
 .product-listing{
