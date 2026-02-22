@@ -2,6 +2,7 @@ body {
     background-color: #1D1D1D;
     margin-top: 0;
     margin-left:0;
+    margin-bottom: 4rem;
 }
 
 .website-nav {
@@ -38,6 +39,7 @@ h2 {
     font-weight: bold;
     font-style: normal;
     font-size: 1rem;
+    color: white;
 }
 
 h3 {
@@ -55,6 +57,7 @@ h4 {
     font-size: 1rem;
     text-transform: uppercase;
     color:#1d1d1d;
+    margin: 0rem;
 }
 
 h5 {
@@ -88,6 +91,8 @@ p {
     font-weight: normal;
     font-style: normal;
     font-size: 1rem;
+    margin:0rem;
+    padding-bottom: 1rem;
 }
 
 a {
@@ -127,9 +132,9 @@ a:hover, a:focus, a:active {
     flex-wrap: wrap;
     gap: 4rem;
     color: white;
-    justify-content: center;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    justify-content: left;
+    padding-top: 2rem;
+    padding-left: 10rem;
 }
 
 .product-listing{
@@ -138,6 +143,33 @@ a:hover, a:focus, a:active {
     border-bottom-color: #767676;
 }
 
+header {
+    position: fixed;
+    top: 0;
+}
+
+.listing-header {
+    color: white;
+    font-weight: normal;
+    font-size: 1.5rem;
+    justify-content: left;
+    max-width: 78%;
+    padding-top: 7rem;
+}
+
+.listing-header h4 {
+    color: white;
+    font-weight: normal;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.ad-listing {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+    justify-content: center;
+}
 /* product page stuff */
 
 .product-info {
