@@ -127,6 +127,7 @@ a:hover, a:focus, a:active {
     background-size: 100% 0.1em;
 }
 
+
 .products {
     display: flex;
     flex-wrap: wrap;
