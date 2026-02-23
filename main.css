@@ -340,6 +340,43 @@ header {
 
 /* end of product page stuff */
 
+/* checkout page stuff */
+
+.cart-contents {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.cart-contents h4 {
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.cart-contents .detail {
+    border-top: 1px solid white;
+}
+
+.cart-contents .cart-button {
+    margin-top: 2rem;
+}
+
+.cart-contents input {
+    font-family: Helvetica, sans-serif;
+    color: #1D1D1D;
+    padding: 0.25rem;
+}
+
+.card-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* end of checkout page stuff */
+
 /*
 .footer {
     position: absolute;
