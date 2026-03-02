@@ -133,8 +133,8 @@ a:hover, a:focus, a:active {
     gap: 4rem;
     color: white;
     justify-content: center;
-    padding-top: 2rem;
-        padding-top: 7rem;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
 
 }
 
@@ -377,7 +377,16 @@ header {
 
 /* end of checkout page stuff */
 
-/*
+.citations {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    padding-left: 10rem;
+
+}
+
 .footer {
     position: absolute;
     display: flex;
@@ -386,5 +395,8 @@ header {
     align-content: center;
     color: white;
     background-color: #1d1d1d;
+
+    padding-left: 2rem;
+    padding-bottom: 2rem;
 }
-*/
+
