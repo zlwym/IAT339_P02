@@ -166,6 +166,11 @@ header {
     padding-bottom: 1rem;
 }
 
+.cart-icon {
+    position: absolute;
+    right: 1rem;
+}
+
 .ad-listing {
     display: flex;
     flex-wrap: wrap;
