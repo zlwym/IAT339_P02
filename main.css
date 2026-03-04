@@ -95,7 +95,7 @@ p {
     padding-bottom: 1rem;
 }
 
-a {
+h2 a {
     color: white;
     background-image: linear-gradient(white, white);
     background-size: 0% 0.1em;
@@ -106,7 +106,7 @@ a {
     text-decoration: none;
 }
 
-a:hover, a:focus, a:active {
+h2 a:hover, h2 a:focus, h2 a:active {
     background-size: 100% 0.1em;
 }
 
@@ -127,11 +127,17 @@ a:hover, a:focus, a:active {
     background-size: 100% 0.1em;
 }
 
-/* add image as a link styling */
+/* image as a link styling */
 .image-link:hover, .image-link:focus {
-    opacity: 60%;
-    transition-duration: 0.3s;
+    border-radius: 3rem;
+   
 }
+
+.image-link {
+    transition-duration: 0.2s;
+}
+
+/* end of image as a link styling */
 
 .products {
     display: flex;
