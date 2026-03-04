@@ -9,7 +9,7 @@ body {
     position: relative;
     display: flex;
     gap: 5rem;
-    position: absolute;
+    position: fixed;
     width: 100vw;
     background-color: white;
     align-items: center;
@@ -148,11 +148,6 @@ a:hover, a:focus, a:active {
     border-bottom-style: solid;
     border-bottom-width: 0.05rem;
     border-bottom-color: #767676;
-}
-
-header {
-    position: absolute;
-    top: 0;
 }
 
 .listing-header {
@@ -428,6 +423,7 @@ header {
     padding-top: 18rem;
     padding-left: 7rem;
     padding-bottom: 7rem;
+    padding-right: 7rem;
 }
 
 .hero-image-text p {
