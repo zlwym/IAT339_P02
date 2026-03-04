@@ -266,8 +266,50 @@ h2 a:hover, h2 a:focus, h2 a:active {
     padding-right: 3rem;
 }
 
-/* Cart page stuff */
+/* Checkout page stuff */
 
+.checkout-container {
+    /*whole thing*/
+    display: flex;
+    width: 100vw;
+}
+
+.cart-contents {
+    /*your cart*/
+    width: 50vw;
+    border-right: 1px solid white;
+}
+
+.cart-contents .cart-item{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+ .cart-contents .listing-header {
+    padding-top: 4rem;
+    padding-left: 3rem;
+ }
+
+.checkout {
+    /*cart and card information*/
+}
+
+.cart-overview {
+    /*taxes*/
+}
+
+.card-information {
+    /*card information*/
+}
+
+/*
+
+.checkout-container {
+    display: flex;
+    flex-direction: row;
+}
 
 .cart-info {
     display: flex;
@@ -276,13 +318,13 @@ h2 a:hover, h2 a:focus, h2 a:active {
     margin-bottom: 6rem;
 }
 
-.cart-listing {
+.cart-contents {
     width: 65%;
     padding-top: 6rem;
     border-right: 0.05rem solid white;
 }
 
-.cart-listing .listing-header {
+.cart-content .listing-header {
     padding-left: 3rem;
 }
 
@@ -313,6 +355,8 @@ h2 a:hover, h2 a:focus, h2 a:active {
 .cart-button {
     margin-bottom: 4rem;
 }
+
+
 
 @media (max-width: 55em) {
     .product-info {
@@ -346,18 +390,15 @@ h2 a:hover, h2 a:focus, h2 a:active {
         padding-left: 3rem;
     }
 
+    .cart-contents {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    padding-left: 3rem;
+    padding-right: 6rem;
 }
 
 
-/* end of product page stuff */
 
-/* checkout page stuff */
-
-.cart-contents {
-    padding-top: 10rem;
-    padding-bottom: 8rem;
-    padding-left: 15rem;
-    padding-right: 15rem;
 }
 
 .cart-contents h4 {
@@ -366,9 +407,7 @@ h2 a:hover, h2 a:focus, h2 a:active {
     padding-bottom: 1rem;
 }
 
-.cart-contents .detail {
-    border-top: 1px solid white;
-}
+
 
 .cart-contents .cart-button {
     margin-top: 2rem;
@@ -385,6 +424,7 @@ h2 a:hover, h2 a:focus, h2 a:active {
     justify-content: space-between;
     align-items: center;
 }
+    */
 
 /* end of checkout page stuff */
 
