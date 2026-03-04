@@ -127,6 +127,12 @@ a:hover, a:focus, a:active {
     background-size: 100% 0.1em;
 }
 
+/* add image as a link styling */
+.image-link:hover, .image-link:focus {
+    opacity: 60%;
+    transition-duration: 0.3s;
+}
+
 .products {
     display: flex;
     flex-wrap: wrap;
