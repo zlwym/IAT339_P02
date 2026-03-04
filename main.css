@@ -129,8 +129,7 @@ h2 a:hover, h2 a:focus, h2 a:active {
 
 /* image as a link styling */
 .image-link:hover, .image-link:focus {
-    border-radius: 3rem;
-   
+    opacity: 50%;
 }
 
 .image-link {
