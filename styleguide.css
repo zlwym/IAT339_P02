@@ -23,6 +23,11 @@ header {
     align-items: center;
 }
 
+.website-nav a,
+.elements-nav a {
+    font-family: "Space Mono", monospace;
+}
+
 .elements-nav {
     position: relative;
     display: flex;
