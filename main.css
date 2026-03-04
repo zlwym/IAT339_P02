@@ -401,7 +401,6 @@ h2 a:hover, h2 a:focus, h2 a:active {
 .footer {
     position: absolute;
     display: flex;
-    width: 100vw;
     height: 4rem;
     align-content: center;
     color: white;
