@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Style Guide</title>
+    <link href="styleguide.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+
+        <div class="website-nav">
+
+            <h1><a href="index.html">Nova</a></h1>
+
+            <div class = "menu">
+            <h4><a href="stars.html">Stars</a></h4>
+            <h4><a href ="nebulae.html">Nebulae</a></h4>
+            <h4><a href ="galaxies.html">Galaxies</a></h4>
+            <h4><a href ="planets.html">Planets</a></h4>
+            <h4><a href ="rocks.html">Rocks</a></h4>
+            <h4><a href ="sale.html">Sale</a></h4>
+            </div>
+            
+            <a href="cart.html"><img src="icons/cart-icon.png" alt="Cart Icon" width="24" height="24"></a>
+
+        </div>
+    </header>
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements" class="body-align">
+
+      <h5>Interactive Elements</h5>
+
+        <section class="element">
+            <h2>In-text link</h2>
+
+            <h4>CSS selector:</h4>
+            <p>.in-text-link</p>
+
+            <h4>Sample code:</h4>
+            <code>&lt;a class="in-text-link" href="https://www.papier.com/ca"&gt;View Products&lt;/a&gt;</code>
+
+            <h4>Rendered element:</h4>
+            <a href="https://www.papier.com/ca" target="_blank">View Products</a>
+
+        </section>
+
+
+        <!-- Default Button styling section -->
+        <section class="element">
+
+            <h2>Navigation Link</h2>
+
+            <h4>CSS selector:</h4>
+            <p>.button-display</p>
+
+            <h4>Sample code:</h4>
+            <code>&lt;a href="#" class="button"&gt;Shop&lt;/a&gt;</code>
+
+            <h4>Rendered element:</h4>
+            <a class="cart-button" href="checkout.html">Checkout</a>
+
+        </section>
+
+
+        <section class="element">
+            <h2>Submit/Reset Buttons</h2>
+
+            <h4>CSS selector:</h4>
+            <p>.submit-botton</p>
+
+            <h4>Sample code:</h4>
+            <code>input type="submit" value="Submit"</code>
+
+            <!-- Code referenced from: https://www.w3schools.com/html/html_forms.asp -->
+            <h4>Rendered element:</h4>
+            <a class="cart-button">Submit</a>
+
+        </section>
+
+
+        <section class="element">
+            <h2>Text Input Field with Label</h2>
+
+            <h4>CSS selector:</h4>
+            <p>N/A</p>
+
+            <h4>Sample code:</h4>
+            <code>input type="text" placeholder="Bob"</code>
+
+            <h4>Rendered element:</h4>
+
+            <h3>Cardholder Name</h3>
+            <input type="name">
+        
+        </section>
+
+        <section class="element">
+            <h2>Radio Button with Label</h2>
+
+            <h4>CSS selector:</h4>
+            <p>N/A</p>
+
+            <h4>Sample code:</h4>
+            <code>input type="radio" id="volume1" name="volumes" value="volume 1"</code>
+
+            <!-- Code referenced from: https://www.w3schools.com/tags/att_input_type_radio.asp -->
+            <h4>Rendered element:</h4>
+
+            <div class="radio-button">
+              <div>
+                <input class="radio-input" type="radio" id="volume1" name="volumes" value="volume 1">
+                <label class="radio-label" for="volume1">Volume 1</label> 
+              </div>
+              <div>
+                <input class="radio-input" type="radio" id="volume2" name="volumes" value="volume 2">
+                <label class="radio-label" for="volume2">Volume 2</label>
+              </div>
+            </div>
+        
+        </section>
+      </div>
+
+
+      <section class="element">
+        <h2>Image as a Link</h2>
+
+        <h4>CSS selector</h4>
+        <p>N/A</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="https://ca.pinterest.com/pin/448389706674489919/" target="_blank"&gt;&lt;img src="img/book.jpg"
+            alt="A Yellow Book"
+            width="400"
+            height="400"/&gt;&lt;/a&gt;</code>
+
+        <h4>Rendered element</h4>
+        <figure>
+          <a href="https://ca.pinterest.com/pin/448389706674489919/" target="_blank"
+          ><img class="img-element"
+            src="img/andromedas_cluster.png"
+            alt="Andromeda's cluster"
+            width="400"
+            height="400"
+        /></a>
+        </figure>
+      </section>
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements" class="body-align">
+      <h5>Text Elements</h5>
+
+      <section class="element">
+        <h2>Headings</h2>
+
+        <h4>CSS selector</h4>
+        <p>h1, h2, h3, h4 { ... } </p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h1&gt;Header 1&lt;h1&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h1 class="text-display">Header 1</h1>
+        <h2 class="text-display-h2 text-display">Header 2</h2>
+        <h3 class="text-display">Header 3</h3>
+        <h4 class="text-display-h4 text-display">Header 4</h4>
+        <h5 class="text-display-h4 text-display">Header 5</h5>
+        <h6 class="text-display-h4 text-display">Header 6</h6>
+        <h7 class="text-display-h4 text-display">Header 7</h7>
+    </section>
+
+      <section class="element">
+        <h2>Paragraphs</h2>
+
+        <h4>CSS selector</h4>
+        <p>p { ... }</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;p&gt;Header 1&lt;p&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <p class="text-display-p">Search through our naturalist collection with over 7 million books, ranging from books, zines, catalogues, postcards, prints, and stationary. Whether you're looking for your next non-fiction, coffee table decor, visual inspiration, or gift for a loved one, explore and discover what speaks to you at Oak's Archive!</p>
+
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements" class="body-align">
+      <h5>Combined Elements</h5>
+
+      <section class="element">
+        <h2>Main Navigation</h2>
+
+        <h4>CSS selector</h4>
+        <p>nav { ... }</p>
+        
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#combined_elements">Home&lt;/a</code>
+
+      <h4>Rendered element</h4>
+      <div class="website-nav">
+
+            <h1><a href="index.html">Nova</a></h1>
+
+            <div class = "menu">
+            <h4><a href="stars.html">Stars</a></h4>
+            <h4><a href ="nebulae.html">Nebulae</a></h4>
+            <h4><a href ="galaxies.html">Galaxies</a></h4>
+            <h4><a href ="planets.html">Planets</a></h4>
+            <h4><a href ="rocks.html">Rocks</a></h4>
+            <h4><a href ="sale.html">Sale</a></h4>
+            </div>
+            
+        </div>
+
+
+      </section>
+
+
+      <section class="element">
+        <h2>Product/Service Listing</h2>
+
+        <h4>CSS selector</h4>
+        <p>N/A</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="https://ca.pinterest.com/pin/448389706674489919/" target="_blank"&gt;&lt;img src="img/book.jpg"
+            alt="A Yellow Book"
+            width="350"
+            height="350"/&gt;&lt;/a&gt;</code>
+
+        <h4>Rendered element</h4>
+      
+        <div class="products">
+
+            <div class=product-listing>
+            <img src="img/Andromeda.png" alt="Andromeda Galaxy" width="350" height="350">
+            <h2><a href="andromeda.html">Andromeda Galaxy</a></h2>
+            <h3>NGC 224 | Galaxy</h3>
+            <p>$500,000,000</p>
+            </div>
+        </div>
+
+      </section>
+
+
+      <section class="element">
+        <h2>Payment Form</h2>
+
+        <h4>CSS selector</h4>
+        <p>N/A</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;input type="text" placeholder="Ex. Bob Simpson"&gt;</code>
+
+        <h4>Rendered element</h4>
+
+        <div class="cart-contents">
+
+            <h4>Checkout</h4>
+
+            <div class="border"></div>
+
+            <div class="card-detail">
+                <h3>Cardholder Name</h3>
+                <input type="name">
+            </div>
+
+            <div class="border"></div>
+            
+            <div class="card-detail">
+                <h3>Card Number</h3>
+                <input type="card-number" placeholder="1234 5678 9012 3456">
+            </div>
+
+            <div class="border"></div>
+
+            <div class="card-detail">
+                <h3>Expiration Date</h3>
+                <input type="expiration-date" placeholder="MM/YY">
+            </div>
+
+            <div class="border"></div>
+            
+            <div class="card-detail">
+                <h3>CVV</h3>
+                <input type="CVV" placeholder="123">
+            </div>
+
+            <div class="border"></div>
+
+            <a class="cart-button" href="#">Place Order</a>
+
+        </div>
+
+      </section>
+
+
+      <section class="element checkout-basket">
+        <h2>Checkout Cart</h2>
+
+        <h4>CSS selector</h4>
+        <p>.checkout-display</p>
+
+        <h4>Sample code 01:</h4>
+        <code>&lt;a href="https://ca.pinterest.com/pin/448389706674489919/" target="_blank"&gt;&lt;img src="img/book.jpg"
+            alt="A Yellow Book"
+            width="150"
+            height="150"/&gt;&lt;/a&gt;</code>
+
+
+        <h4>Sample code 02:</h4>
+        <code>&lt;a href="https://ca.pinterest.com/pin/68748526857/" target="_blank"&gt;&lt;img src="img/book2.jpg"
+            alt="Little Blue Book"
+            width="150"
+            height="150"/&gt;&lt;/a&gt;</code>
+
+        <h4>Rendered element</h4>
+
+        <div class="cart-item">
+        <img src="img/Andromeda.png" alt="Andromeda" width="80" height="100">
+        <h2>Andromeda Galaxy</h2>
+        <h3>Astronomical Number | Galaxy</h3>
+        <h2>$500,000,000</h2>
+        </div>
+        </div>
+
+      </section>
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+  </body>
+</html>
