@@ -144,11 +144,6 @@ a:hover, a:focus, a:active {
     border-bottom-color: #767676;
 }
 
-header {
-    position: fixed;
-    top: 0;
-}
-
 .listing-header {
     color: white;
     font-weight: normal;
@@ -166,12 +161,11 @@ header {
     padding-bottom: 1rem;
 }
 
-.ad-listing {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 4rem;
-    justify-content: center;
+.cart-icon {
+    position: absolute;
+    right: 1rem;
 }
+
 /* product page stuff */
 
 .product-info {
