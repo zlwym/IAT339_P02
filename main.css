@@ -313,6 +313,11 @@ h2 a:hover, h2 a:focus, h2 a:active {
     width: 50vw;
 }
 
+.card-information .cart-button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 @media (max-width: 55em) {
     .checkout-container{
         flex-direction: column;
@@ -322,13 +327,10 @@ h2 a:hover, h2 a:focus, h2 a:active {
         border-right: none;
     }
 
-    .checkout {
-        /* put items in the center */
+    .checkout{
         width: 100vw;
-        justify-content: center;
-        justify-items: center;
-        align-content: center;
-        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
