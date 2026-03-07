@@ -315,7 +315,7 @@ h2 a:hover, h2 a:focus, h2 a:active {
 
 .card-information .cart-button {
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 @media (max-width: 55em) {
@@ -331,6 +331,32 @@ h2 a:hover, h2 a:focus, h2 a:active {
         width: 100vw;
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .cart-overview{
+        width: 100%;
+    }
+
+    .card-information{
+        width: 100%;
+    }
+
+    .card-detail{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .card-information .cart-button{
+        margin-left: 3rem;
+    }
+
+    .checkout .listing-header{
+        padding-left: 3rem;
+    }
+
+    .cart-overview .cart-detail {
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
 }
 
