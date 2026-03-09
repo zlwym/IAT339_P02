@@ -76,7 +76,7 @@ figure {
 
 .img-element:hover, 
 .img-element:focus {
-  opacity: 60%;
+  opacity: 50%;
   transition-duration: 0.3s;
 }
 
@@ -151,7 +151,7 @@ p {
     padding-bottom: 1rem;
 }
 
-a {
+.link-interact {
     font-family: Helvetica, sans-serif;
     color: white;
     background-image: linear-gradient(white, white);
