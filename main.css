@@ -243,6 +243,7 @@ h2 a:hover, h2 a:focus, h2 a:active {
     object-fit: cover;
     display: block;
     border-top: 0.05rem solid white;
+    padding-bottom: 1rem;
 }
 
 .product-details {
@@ -279,7 +280,6 @@ h2 a:hover, h2 a:focus, h2 a:active {
 }
 
 .cart-contents .cart-item{
-    padding-top: 2rem;
     padding-bottom: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -439,5 +439,12 @@ h2 a:hover, h2 a:focus, h2 a:active {
     max-width: 40rem;
 }
 
-/* end of landing page stuff */
+/* Company Updates */
+
+.company-updates {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 10rem;
+}
+
 

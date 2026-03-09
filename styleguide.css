@@ -247,7 +247,7 @@ code {
     right: 1rem;
 }
 
-/* Styling for footer; code referenced from lecture code */
+/* Styling for footer */
 .footer-layout { 
   display: flex;
   flex-direction: column;
@@ -269,7 +269,7 @@ code {
   INTERACTIVE ELEMENTS -------------------
 */
 
-/* Styling for the navigation button; code referenced from lecture code */
+/* Styling for the navigation button */
 .button-display {
   display: inline-block;
   padding-left: 1rem;
@@ -291,13 +291,13 @@ code {
   text-decoration: none;
 }
 
-/* In-text link; code referenced from lecture code */
+/* In-text link */
 .in-text-link:hover, 
 .in-text-link:focus {
   text-decoration: underline;
 }
 
-/* Submit button; code referenced from lecture code */
+/* Submit button */
 .submit-botton {
   font-family: Helvetica, sans-serif;
   font-size: 1rem;
@@ -321,7 +321,7 @@ code {
   border-style: none;
 }
 
-/* Text input field; code referenced from lecture code */
+/* Text input field */
 
 .input-field {
   display: flex; 
@@ -341,7 +341,7 @@ code {
 }
 
 
-/* Radio buttons; code referenced from lecture code and https://www.markheath.net/post/2016/9/22/customize-radio-button-css */
+/* Radio buttons */
 .radio-button {
   display: flex;
   flex-direction: row;
