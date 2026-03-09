@@ -216,7 +216,6 @@ h2 a:hover, h2 a:focus, h2 a:active {
     height: 100%;
     object-fit: cover;
     display: block;
-    
 }
 
 .cart-button{
@@ -313,6 +312,11 @@ h2 a:hover, h2 a:focus, h2 a:active {
     width: 50vw;
 }
 
+.card-information .cart-button {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
 @media (max-width: 55em) {
     .checkout-container{
         flex-direction: column;
@@ -322,13 +326,36 @@ h2 a:hover, h2 a:focus, h2 a:active {
         border-right: none;
     }
 
-    .checkout {
-        /* put items in the center */
+    .checkout{
         width: 100vw;
-        justify-content: center;
-        justify-items: center;
-        align-content: center;
-        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .cart-overview{
+        width: 100%;
+    }
+
+    .card-information{
+        width: 100%;
+    }
+
+    .card-detail{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .card-information .cart-button{
+        margin-left: 3rem;
+    }
+
+    .checkout .listing-header{
+        padding-left: 3rem;
+    }
+
+    .cart-overview .cart-detail {
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
 }
 
@@ -379,7 +406,6 @@ h2 a:hover, h2 a:focus, h2 a:active {
 .footer {
     position: absolute;
     display: flex;
-    width: 100vw;
     height: 4rem;
     align-content: center;
     color: white;
