@@ -95,7 +95,7 @@ p {
     padding-bottom: 1rem;
 }
 
-h2 a {
+h2 a, h3 a, h6 a{
     color: white;
     background-image: linear-gradient(white, white);
     background-size: 0% 0.1em;
@@ -106,7 +106,9 @@ h2 a {
     text-decoration: none;
 }
 
-h2 a:hover, h2 a:focus, h2 a:active {
+h2 a:hover, h2 a:focus, h2 a:active,
+h3 a:hover, h3 a:focus, h3 a:active,
+h6 a:hover, h6 a:focus, h6 a:active {
     background-size: 100% 0.1em;
 }
 
@@ -125,6 +127,11 @@ h2 a:hover, h2 a:focus, h2 a:active {
 .website-nav a:focus, 
 .website-nav a:active {
     background-size: 100% 0.1em;
+}
+
+input {
+    font-family: Helvetica, sans-serif;
+    padding: 0.2rem;
 }
 
 /* image as a link styling */
@@ -275,7 +282,7 @@ h2 a:hover, h2 a:focus, h2 a:active {
 
 .cart-contents {
     /*your cart*/
-    min-width: 50vw;
+    width: 45vw;
     border-right: 1px solid white;
 }
 
@@ -292,7 +299,6 @@ h2 a:hover, h2 a:focus, h2 a:active {
 
 .checkout {
     /*cart and card information*/
-    width: 50vw;
     padding-top: 3rem;
     padding-right: 5rem;
     padding-left: 5rem;
@@ -304,12 +310,12 @@ h2 a:hover, h2 a:focus, h2 a:active {
 
 .cart-overview {
     /*taxes*/
-    width: 50vw;
+    width: 45vw;
 }
 
 .card-information {
     /*card information*/
-    width: 50vw;
+    width: 45vw;
 }
 
 .card-information .cart-button {
@@ -323,6 +329,7 @@ h2 a:hover, h2 a:focus, h2 a:active {
     }
     
     .cart-contents {
+        width: 100vw;
         border-right: none;
     }
 
@@ -389,6 +396,49 @@ h2 a:hover, h2 a:focus, h2 a:active {
         padding-top: 3rem;
         max-width: 100%;
     }
+
+    .radio-button {
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+}
+
+.radio-button {
+  display: flex;
+  max-width: 20rem;
+  margin-bottom: 2rem;
+}
+
+.radio-input {
+  display: none;
+}
+
+.radio-input:checked + .radio-label{
+  background-color: #767676;
+  color: white;
+}
+
+.radio-label {
+  font-family: Helvetica, sans-serif; 
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1rem;
+  color:#1D1D1D;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 0.5rem;
+
+  align-content: center;
+  justify-content: center;
+
+  background-color: rgb(250, 246, 237);
+}
+
+.radio-label:hover {
+  background-color: #767676;
+  color: white;
 }
 
 /* end of checkout page stuff */

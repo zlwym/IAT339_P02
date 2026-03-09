@@ -344,10 +344,10 @@ code {
 /* Radio buttons */
 .radio-button {
   display: flex;
-  flex-direction: row;
   max-width: 20rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+
 }
 
 .radio-input {
@@ -355,12 +355,16 @@ code {
 }
 
 .radio-input:checked + .radio-label{
-  border-style: solid;
-  border-width: 0.1rem;
-  background-color: white;
+  background-color: #767676;
+  color: white;
 }
 
 .radio-label {
+  font-family: Helvetica, sans-serif; 
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1rem;
+  color:#1D1D1D;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
@@ -371,11 +375,11 @@ code {
   justify-content: center;
 
   background-color: rgb(250, 246, 237);
-  border-radius: 0.5rem;
 }
 
 .radio-label:hover {
-  background-color: white;
+  background-color: #767676;
+  color: white;
 }
 
 
