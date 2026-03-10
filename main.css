@@ -379,6 +379,17 @@ input {
     align-items: center;
 }
 
+input {
+    padding: 0.2rem;
+    border-radius: 0;
+    border: none;
+}
+
+input:hover, input:focus {
+  box-shadow: inset 1px 2px 2px rgba(0, 0, 0, .3);
+}
+
+
 
 @media (max-width: 55em) {
     .product-info {
@@ -497,4 +508,104 @@ input {
     padding-bottom: 10rem;
 }
 
+/* Contact form */
 
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7rem;
+}
+
+.contact .listing-header {
+    padding-left: 1rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+  border: 1px solid white;
+  font-family: "asterisk-sans-variable", sans-serif;
+  font-variation-settings: "wght" 800;
+  width: 100%;
+  max-width: 25rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.input-field input {
+  font-family: Helvetica, sans-serif;
+  background: #FFF;
+  border: 1px solid rgb(180, 180, 180);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.input-field label {
+  display: block;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal; 
+  font-size: 1rem;
+  color:#767676;
+  margin: 20px;
+}
+
+.input-field input:hover, .input-field input:focus, textarea:hover, textarea:focus{
+  box-shadow: inset 1px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.payment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.input-field input[type=submit] {
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    max-width: 6rem;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 2rem;
+
+    background-color: #EF7707;
+    padding: 1rem;
+    color: black;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    transition: background-size 0.01s;
+    border: none;
+}
+
+.input-field input[type=submit]:hover, .input-field input[type=submit]:active 
+.input-field input[tupe=submit]:focus{
+    background-color: white;
+}
+
+textarea {
+    font-family: Helvetica, sans-serif;
+    resize: none;
+    margin-left: 1.3rem;
+    padding: 0.5rem;
+    border-radius: 0;
+}

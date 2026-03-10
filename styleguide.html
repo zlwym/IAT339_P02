@@ -96,7 +96,7 @@
 
             
                   <label for="cardholder-name"><h3>Cardholder Name</h3></label><br>
-                  <input type="name">
+                  <input type="name" placeholder="Jane Doe">
         
         </section>
 
@@ -268,43 +268,56 @@
 
         <h4>Rendered element</h4>
 
-        <div class="cart-contents">
-
-            <h4>Checkout</h4>
-
-            <div class="border"></div>
-
-            <div class="card-detail">
-                <h3>Cardholder Name</h3>
-                <input type="name">
+        <div class="card-information">
+                <h4 class="listing-header">Checkout</h4>
+                
+                <div class="radio-button">
+              <div>
+                <input class="radio-input" type="radio" id="Mastercard" name="Payments" value="Mastercard">
+                <label class="radio-label" for="Mastercard">Mastercard</label> 
+              </div>
+              <div>
+                <input class="radio-input" type="radio" id="Visa" name="Payments" value="Visa">
+                <label class="radio-label" for="Visa">Visa</label>
+              </div>
+              <div>
+                <input class="radio-input" type="radio" id="Paypal" name="Payments" value="Paypal">
+                <label class="radio-label" for="Paypal">Paypal</label>
+              </div>
             </div>
 
-            <div class="border"></div>
-            
-            <div class="card-detail">
-                <h3>Card Number</h3>
-                <input type="card-number" placeholder="1234 5678 9012 3456">
+                <div class="border"></div>
+
+                <div class="card-detail">
+                    <label for="cardholder-name"><h3>Cardholder Name</h3></label><br>
+                    <input type="name">
+                </div>
+
+                <div class="border"></div>
+                
+                <div class="card-detail">
+                    <label for="card-number"><h3>Card Number</h3></label><br>
+                    <input type="card-number" placeholder="1234 5678 9012 3456">
+                </div>
+
+                <div class="border"></div>
+
+                <div class="card-detail">
+                    <label for="expiration-date"><h3>Expiration Date</h3></label><br>
+                    <input type="text" placeholder="MM/YY">
+                </div>
+
+                <div class="border"></div>
+                
+                <div class="card-detail">
+                    <label for="cvv"><h3>CVV</h3></label><br>
+                    <input type="text" placeholder="123">
+                </div>
+
+                <div class="border"></div>
+
+                <a class="cart-button" href="#">Place Order</a>
             </div>
-
-            <div class="border"></div>
-
-            <div class="card-detail">
-                <h3>Expiration Date</h3>
-                <input type="expiration-date" placeholder="MM/YY">
-            </div>
-
-            <div class="border"></div>
-            
-            <div class="card-detail">
-                <h3>CVV</h3>
-                <input type="CVV" placeholder="123">
-            </div>
-
-            <div class="border"></div>
-
-            <a class="cart-button" href="#">Place Order</a>
-
-        </div>
 
       </section>
 
